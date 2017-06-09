@@ -1,0 +1,50 @@
+% Yue Li, June 2017
+
+\documentclass[a4paper,12pt,twoside]{report}
+\usepackage[left=2.5cm,right=2.5cm,top=2cm,bottom=3cm]{geometry}
+
+\include{thesis.preamble}
+
+
+\begin{document}
+
+\title{\LARGE {\bf Your Thesis Title}}
+
+\author{Your Name}
+\submitdate{May 2016}
+\degree{BSc Computer Science}
+\studentid{Your Student ID}
+\supervisor{Your Supervisor Name}
+
+\normallinespacing
+\maketitle
+
+% delete the two declaration sentences in thesis.sty if not applicable. 
+
+\preface
+\input{abstract/abstract}
+\input{acknowledgements/acknowledgements}
+
+% There is a maximum limit of 15,000 words without exceeding 40 pages (A4 sides) for the main body of the dissertation that will be submitted in PDF. This limitation includes the bibliography and excludes cover/front pages (e.g., abstract, acknowledgement, table of contents) and excludes the appendices, listing of any codes or any other supporting documentation.
+% Note: Your dissertation should not exceed the word and page limits. You do not have to use up your word limit to get a good grade; never `pad out' your dissertation, this will only annoy the markers.
+
+\body
+\input{introduction/introduction}
+\input{background/background}
+
+% body of thesis comes here
+\input{body/body}
+
+\input{summary/summary}
+
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{acm}
+\bibliography{bibliography/bibliography}
+
+
+% appendices come here
+
+\input{appendices/appendix}
+
+
+\end{document}
