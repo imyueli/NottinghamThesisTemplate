@@ -1,6 +1,6 @@
 # Nottingham Thesis LaTeX Template
 
-This repository includes the LaTeX template for the University of Nottingham thesis/dissertation and the submission cover.
+This repository includes the LaTeX template and the submission cover for the University of Nottingham thesis/dissertation.
 
 It can be used for:
 
