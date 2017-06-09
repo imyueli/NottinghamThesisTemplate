@@ -4,12 +4,19 @@ This repository includes the LaTeX template and the submission cover for the Uni
 
 It can be used for:
 
-- AE3IDS Undergraduate final year project (UNNC)
-- G53IDS Undergraduate final year project (UNUK)
+- AE3IDS Individual Dissertation Single Honours (UNNC)
+- AE3IDJ Individual Dissertation Joint Honours (UNNC)
+- G53IDS Individual Dissertation Single Honours (UNUK)
 
 The template is constructed for the final submission of the thesis based on the [Project handbook](http://workspace.nottingham.ac.uk/pages/viewpage.action?pageId=130353499) in the university workspace (if the link doesn't work, you may search "Final Year (3rd+Year) Project Handbook" in the workspace). 
 
-It can be adapted for the interim report and hopefully for the thesis in other departments as well.
+It can be adapted for:
+
+- the interim report  
+- G54IPP MSci Individual Programming Project
+- G54IRP MSc Individual Research Project 
+- G54GPP MSci Group Project
+- and hopefully thesis in other departments
 
 The thesis template includes the sections below:
 
