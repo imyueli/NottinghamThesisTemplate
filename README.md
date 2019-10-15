@@ -47,6 +47,7 @@ Please let me know if you find it fits well with any other projects/modules.
 ## Acknowledgement
 
 As noted by Matt, I have updated to include the bibtex fragment for this template. I would appreciate if you can acknowledge my work.
+```
 @misc{Li2017,
   author = {Li, Yue},
   title = {University of Nottingham Thesis and Dissertation Template},
@@ -55,6 +56,7 @@ As noted by Matt, I have updated to include the bibtex fragment for this templat
   journal = {GitHub repository},
   howpublished = {\url{https://github.com/imyueli/NottinghamThesisTemplate}}
 }
+```
 
 ## LaTeX online writing tools
 
