@@ -1,4 +1,4 @@
-# University of Nottingham Thesis Template in LaTeX
+# University of Nottingham Thesis and Dissertation Template
 
 This repository includes the LaTeX template and the submission cover for the University of Nottingham thesis/dissertation.
 
@@ -44,6 +44,17 @@ The thesis template includes the sections below:
 
 Please let me know if you find it fits well with any other projects/modules.
 
+## Acknowledgement
+
+As noted by Matt, I have updated to include the bibtex fragment for this template. I would appreciate if you can acknowledge my work.
+@misc{Li2017,
+  author = {Li, Yue},
+  title = {University of Nottingham Thesis and Dissertation Template},
+  year = {2017},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/imyueli/NottinghamThesisTemplate}}
+}
 
 ## LaTeX online writing tools
 
