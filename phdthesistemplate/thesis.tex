@@ -1,0 +1,81 @@
+% Yue Li, July 2020
+
+% This template is adapted from the previous template I wrote in 2017:
+% University of Nottingham Thesis and Dissertation Template
+% https://www.overleaf.com/latex/templates/university-of-nottingham-thesis-and-dissertation-template
+
+% The current one includes more sample scripts in Chapter 4 Main Chapter, demonstrating the use of
+% - Figures
+% - Tables
+% - Lists (for Research Questions and Hypotheses, etc.)
+% - and PDF appendix in the Appendix chapter 
+
+% This one is specifically shaped for a PhD thesis submission.
+% However, please double check with your faculty's thesis submission guideline.
+
+% LENGTH AND PRESENTATION OF PhD THESIS
+% The PhD thesis is normally about 80,000 words in length with an upper word-limit of 100,000 words. The Quality Manual states that ‘The thesis should not be more than 100,000 words in the case of PhD (inclusive of appendices, footnotes, tables, and bibliography); the University may withhold from examination a thesis that exceeds these word limits.'
+% Your thesis/dissertation must be presented on A4 paper, single-sided, with 12 font typescript, with double spacing, and good quality printing to allow for reproduction. There should be a margin of at least 1.5 inches, preferably 2 inches (5cm), on the left side of the page, both for typescript and diagrams, to allow for binding. Other margins should be of at least 1 inch (2.5 cm).
+
+\documentclass[a4paper,12pt,oneside]{report}
+\usepackage[left=1.8in,right=1.2in,top=1in,bottom=1.2in]{geometry}
+
+\include{thesis.preamble}
+\setlength{\parskip}{1em}
+
+
+% define all abbreviations used in the thesis
+\newacronym{vr}{VR}{Virtual Reality}
+\newacronym{ar}{AR}{Augmented Reality}
+\newacronym{hvar}{HVAR}{Hybrid Virtual and Augmented Reality}
+
+\makenoidxglossaries
+
+% define research questions so that the phrasing of words are consistent.
+\newcommand{\rqone}{First research question?}
+\newcommand{\rqtwo}{Second research question?}
+\newcommand{\rqthree}{Third research question?}
+    
+\begin{document}
+
+\title{Thesis Title}
+
+\author{Your Name}
+\submitdate{July 2020}
+\degree{Doctor of Philosophy}
+\studentid{Your ID}
+\supervisor{\\First Supervisor\\Second Supervisor\\Third Supervisor}
+
+\normallinespacing
+\maketitle
+
+\preface
+
+\input{0-abstract/abstract}
+\input{0-acknowledgements/acknowledgements}
+
+\frontpagestyle
+
+\body
+
+\mainpagestyle
+
+\input{1-introduction/introduction}
+\input{2-literaturereview/literaturereview}
+\input{3-methodology/methodology}
+\input{4-mainchapter/mainchapter}
+\input{5-conclusion/conclusion}
+
+
+\newpage
+\frontpagestyle
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{apalike}
+\renewcommand\bibname{Bibliography}
+\bibliography{bibliography/bibliography}
+
+
+\input{appendices/appendix}
+
+
+\end{document}

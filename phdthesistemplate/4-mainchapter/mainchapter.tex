@@ -1,0 +1,126 @@
+\chapter{Main Chapter}
+\label{ch:mainchapter}
+
+Main chapter. This can be duplicated several times.
+
+% comment out the following lines if you do not need a table of content for each chapter
+\newpage
+\minitoc % table of content for each chapter
+\newpage
+
+%%%%%%%%%%%
+% Figures  
+%%%%%%%%%%%
+\section{Figures}
+
+Example figure (see Figure~\ref{fig:nottinghamlogo}).
+
+\subsection{Single figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\columnwidth]{images/nottingham-logo.png}
+    \caption{Nottingham Logo.}
+    \label{fig:nottinghamlogo}
+\end{figure}
+
+\subsection{Figures with sub captions}
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[h]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/nottingham-logo.png}
+        \caption{Caption A.}
+        \label{fig:captiona}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[h]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/nottingham-logo.png}
+        \caption{Caption B.}
+        \label{fig:captionb}
+    \end{subfigure}
+    \caption{Nottingham Logo.}
+\end{figure}
+
+\subsection{Figures side by side}
+
+\begin{figure}[h]
+    \centering
+    \begin{minipage}[h]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/nottingham-logo.png}
+        \caption{Caption C.}
+        \label{fig:captionc}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[h]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/nottingham-logo.png}
+        \caption{Caption D.}
+        \label{fig:captiond}
+    \end{minipage}
+\end{figure}
+
+
+%%%%%%%%%%%
+% Tables  
+%%%%%%%%%%%
+\section{Tables}
+
+Example table (see Table~\ref{tb:table-example}). 
+% Generate LaTeX table quickly with this website: https://www.tablesgenerator.com
+
+\begin{table}[h]
+\caption{Table caption.}
+\label{tb:table-example}
+\begin{tabularx}{\textwidth}{XXX}
+\toprule
+\textbf{Col 1} & \textbf{Col 2} & \textbf{Col 3} \\ \midrule
+\textbf{A}     & 1              & 5              \\
+\textbf{B}     & 2              & 6              \\
+\textbf{C}     & 3              & 7              \\
+\textbf{D}     & 4              & 8              \\ \bottomrule
+\end{tabularx}%
+\end{table}
+
+
+%%%%%%%%%%%
+% Lists  
+%%%%%%%%%%%
+\section{Lists}
+
+\subsection{Numbered list}
+
+\subsubsection{Enumeration}
+
+\begin{enumerate}
+    \item First item.
+    \item Second item.
+    \item Third item.
+\end{enumerate}
+
+\subsubsection{Research questions}
+
+\begin{enumerate}[font={\bfseries},label={RQ\arabic*}.,align=left]
+    \item \rqone
+    \item \rqtwo
+    \item \rqthree
+\end{enumerate}
+
+\subsubsection{Hypothesis}
+
+\begin{enumerate}[font={\bfseries},label={H\arabic*}.,align=left]
+    \item First hypothesis.
+    \item Second hypothesis.
+    \item Third hypothesis.
+\end{enumerate}
+
+\subsection{Itemised list}
+
+\begin{itemize}
+    \item First item.
+    \item Second item.
+    \item Third item.
+\end{itemize}
+
